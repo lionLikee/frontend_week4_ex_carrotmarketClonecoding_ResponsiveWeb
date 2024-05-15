@@ -1,0 +1,260 @@
+
+    * {
+        font-family: "Noto Sans KR";
+        list-style: none;
+        text-decoration: none;
+        border-collapse: collapse;
+        margin: 0px;
+        padding: 0px;
+        color: black
+    }
+
+    .header{
+        width:1280px;
+        height:86px;
+        display: flex;
+        flex-direction: row;
+        margin:auto;
+    }
+
+    .logo_pic{
+        width:100px;
+        height:50px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+    }
+
+    .nav a{
+        text-decoration: none;
+    }
+
+    .nav a:hover{
+        color:gray;
+        cursor: pointer;
+    }
+
+    .nav li{
+        list-style-type: none;
+        margin-left: 35px;  /*리스트들 간 거리 조절*/
+        font-size: 19px;  
+    }
+
+    .orange_alba{
+        color:#fa6616;
+    }
+
+    .inputFind{
+        width:300px;
+        height:50px;
+        margin-left: 210px;
+        margin-top: 16px;
+    }
+
+    .findInput{
+        width:280px;
+        height:40px;
+        font-size: 17px;
+    }
+
+    .cancelBtn{
+        display:none;
+        width:40px;
+        height:20px;
+        font-size: 10px;
+        margin-left:5px;
+    }
+
+
+    .navbar_toggleBtn{
+        position: absolute;
+        right: 32px; /* 부모 요소의 오른쪽 가장자리로부터 20px만큼 떨어짐 */
+        color: gray;
+        margin-top: 10px;
+        display:none;
+    }
+
+    .magnifying_glassBtn{
+        position: absolute;
+        right: 50px;
+        margin-top: 10px;
+        display:none;
+    }
+
+
+    .chat{
+        width:100px;
+        height:50px;
+        margin-top: 16px;
+    }
+
+    .beginchatBtn{
+        width:80px;
+        height:43px;
+        font-size: 17px;
+    }
+
+    .beginchatBtn:hover{
+        cursor: pointer;
+    }
+
+    .notice_up{
+        width:1700px;
+        height:300px;
+        display: flex;
+        flex-direction: row;
+        background-color: wheat;
+    }
+
+    .content1{
+        width:390px;
+        height:300px;
+        margin-left: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 40px;
+        background-color: wheat;
+    }
+
+    .upBtn{
+        width:90px;
+        height:37px;
+        background-color: #fa6616;
+        color: white;
+        border: 0.2px solid #fa6616;
+        border-radius: 10px;
+    }
+
+    .upBtn:hover{
+        background-color: #f85701;
+        cursor: pointer;
+    }
+
+    .notice_pic{
+        margin-top: 40px;
+        width:600px;
+        height:260px;
+        background-color: none;
+    }
+    .works{
+        width: 1000px;
+        height: 800px;
+        margin:auto;
+    }
+
+    .title{
+        width:200px;
+        height:30px;
+        margin-top: 50px;
+        margin-left:140px;
+        font-size: 30px;
+    }
+
+    .albaList{
+        width:780px;
+        height:700px;
+        margin-left: 110px;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+    }
+
+    .alba{
+        width:310px;
+        height: 120px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    .picture{
+        width:130px;
+        height:100px;
+    }
+    .pictures{
+        width:110px;
+        height:110px;
+        border-radius: 10px;
+    }
+
+    .explain{
+        width:180px;
+        height:120px;
+        margin-left:10px;
+    }
+    .alba_title{
+        font-size: 16px;
+    }
+    .place{
+        font-size: 12px;
+        margin-top:5px;
+        color:gray;
+    }
+
+    .price{
+        font-size:16px;
+        margin-top:5px;
+    }
+
+    .freeEx{
+        width:780px;
+        height:100px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #f7f1eb;
+        margin:auto;
+    }
+
+    .bannerimage{
+        margin-left: 10px;
+        width:80px;
+        height:80px;
+    }
+
+    .bannertext{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .Btns{
+        margin-left: 50px;
+    }
+
+    .freeBtn{
+        width:100px;
+        height:40px;
+        background-color: #fa6616;
+        color:white;
+        border: 0.2px solid #fa6616;
+        border-radius: 10px;
+
+    }
+
+    .freeBtn:hover{
+        background-color: #f85701;
+        cursor: pointer;
+    }
+
+    .askBtn{
+        margin-left:20px;
+        width:60px;
+        height:40px;
+        background-color: #ff6f0f33;
+        color:#fa6616;
+        border: 0.2px solid  #ff6f0f33;
+        border-radius: 10px;
+    }
+
+    .askBtn:hover{
+        background-color:#be4d0233 ;
+        cursor: pointer;
+    }
+
